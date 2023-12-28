@@ -1,4 +1,2 @@
-def name(n):
-    print(n)
-
-name("Aayush")
+square = lambda x: x ** 2
+print(square(5))
