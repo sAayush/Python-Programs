@@ -6,7 +6,7 @@ class TreeNode:
         
     
 class Solution:
-    def isSymmetric(self, root: [TreeNode]) -> bool:
+    def isSymmetric(self, root: TreeNode) -> bool:
         if root is None:
             return True
         return self.isMirror(root.left, root.right)
